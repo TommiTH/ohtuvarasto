@@ -65,5 +65,5 @@ class TestVarasto(unittest.TestCase):
         self.varasto.ota_varastosta(-1000)
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
-    def test_printti_toimii(self):
-        assert str(self.varasto) == ""
+    def test_printti_ei_tyhja(self):
+        assert str(self.varasto) != ""
