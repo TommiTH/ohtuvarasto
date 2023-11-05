@@ -66,4 +66,4 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(self.varasto.saldo, 0)
 
     def test_printti_toimii(self):
-        assert str(self.varasto) != ""
+        assert str(self.varasto) == ""
