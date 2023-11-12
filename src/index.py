@@ -10,7 +10,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-#TAMA ON TOSI PITKA KOMMENTTI LINUS TORVALD SANOO ETTÄ ISOT NÄYTÖT SIKA JEES JA KAPEAT SUCK JOPTEN TAMA VIESTI ON JUSTIFIED
+
 def print_luonnin_jalkeen(mehua, olutta):
     print("Luonnin jälkeen:")
     print(f"Mehuvarasto: {mehua}")
